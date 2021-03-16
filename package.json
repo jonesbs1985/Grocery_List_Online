@@ -1,0 +1,33 @@
+{
+  "name": "grocery_list_online",
+  "version": "1.0.0",
+  "description": "Grocery list application with express and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonesbs1985/Grocery_List_Online.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "Bryan Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonesbs1985/Grocery_List_Online/issues"
+  },
+  "homepage": "https://github.com/jonesbs1985/Grocery_List_Online#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
